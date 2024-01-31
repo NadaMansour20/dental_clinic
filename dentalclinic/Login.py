@@ -9,7 +9,7 @@ root_splash.overrideredirect(True)   #remove title bar
 photosplash=PhotoImage(file="photo/Screenshot 2023-08-19 161959.png")
 lblsplash=Label(root_splash,image=photosplash)
 lblsplash.place(x=0,y=0)
-Use.center(root_splash)
+Use.center(root_splash)  #make screen in center
 
 def main_screen():
     def check():
